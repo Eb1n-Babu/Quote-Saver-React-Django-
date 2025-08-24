@@ -1,35 +1,34 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React, {useEffect} from 'react';
+import axios from "axios";
 
-function App() {
-  const [count, setCount] = useState(0)
+function App(props) {
 
-  return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    const [Quotes, setQuotes] = React.useState([]);
+    const [form, setForm] = React.useState({ author: '', text: '' });
+
+    useEffect(() => {
+        axios.get('http://localhost:8000/api/quotes/')
+            .then(response => setQuotes(response.data))
+    },[])
+
+    const submitQuote = () => {
+        axios.post('http://localhost:8000/api/quotes/', form)
+            .then(response => setQuotes([...Quotes, response.data]))
+    }
+
+    return (
+        <div>
+            <h1>Quotes Saver</h1>
+            <input placeholder="author"
+            onChange={(event)=>setForm({...form,author: event.target.value})}/>
+            <input placeholder="text"
+            onChange={(event)=>setForm({...form,text: event.target.value})}/>
+            <button onClick={submitQuote}>Submit</button>
+            <ul>
+                {Quotes.map((quote => <li key={quote.id}><strong>{quote.author} : </strong>{quote.text}</li>))}
+            </ul>
+        </div>
+    );
 }
 
-export default App
+export default App;
