@@ -20,9 +20,9 @@ function App(props) {
         <div>
             <h1>Quotes Saver</h1>
             <input placeholder="author"
-            onChange={(event)=>setForm({...form,author: event.target.value})}/>
+            onChange={(event)=>setForm({...form,author: event.target.value})}/><br/>
             <input placeholder="text"
-            onChange={(event)=>setForm({...form,text: event.target.value})}/>
+            onChange={(event)=>setForm({...form,text: event.target.value})}/><br/>
             <button onClick={submitQuote}>Submit</button>
             <ul>
                 {Quotes.map((quote => <li key={quote.id}><strong>{quote.author} : </strong>{quote.text}</li>))}
