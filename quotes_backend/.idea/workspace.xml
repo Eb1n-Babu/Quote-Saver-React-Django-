@@ -7,22 +7,6 @@
     <list default="true" id="912deb7c-35cb-4bb2-a7a5-bdcc9dceae46" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quotes_backend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/quotes_backend/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quotes_backend/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/quotes_backend/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../quotes_frontend/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../quotes_frontend/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../quotes_frontend/node_modules/.vite/deps/_metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/../quotes_frontend/node_modules/.vite/deps/_metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../quotes_frontend/node_modules/.vite/deps/react-dom.js" beforeDir="false" afterPath="$PROJECT_DIR$/../quotes_frontend/node_modules/.vite/deps/react-dom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../quotes_frontend/node_modules/.vite/deps/react-dom_client.js" beforeDir="false" afterPath="$PROJECT_DIR$/../quotes_frontend/node_modules/.vite/deps/react-dom_client.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../quotes_frontend/node_modules/.vite/deps/react-dom_client.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../quotes_frontend/node_modules/.vite/deps/react-dom_client.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../quotes_frontend/node_modules/.vite/deps/react.js" beforeDir="false" afterPath="$PROJECT_DIR$/../quotes_frontend/node_modules/.vite/deps/react.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../quotes_frontend/node_modules/.vite/deps/react_jsx-dev-runtime.js" beforeDir="false" afterPath="$PROJECT_DIR$/../quotes_frontend/node_modules/.vite/deps/react_jsx-dev-runtime.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../quotes_frontend/node_modules/.vite/deps/react_jsx-dev-runtime.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../quotes_frontend/node_modules/.vite/deps/react_jsx-dev-runtime.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../quotes_frontend/node_modules/.vite/deps/react_jsx-runtime.js" beforeDir="false" afterPath="$PROJECT_DIR$/../quotes_frontend/node_modules/.vite/deps/react_jsx-runtime.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../quotes_frontend/node_modules/.vite/deps/react_jsx-runtime.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../quotes_frontend/node_modules/.vite/deps/react_jsx-runtime.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../quotes_frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../quotes_frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../quotes_frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../quotes_frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../quotes_frontend/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../quotes_frontend/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../quotes_frontend/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../quotes_frontend/src/App.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
